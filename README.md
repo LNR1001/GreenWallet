@@ -11,45 +11,45 @@ It encourages users to spend smarter while learning how lifestyle choices impact
 ✨ Features
 💰 Smart Budget Tracking
 
-Set and update a monthly budget
+- Set and update a monthly budget
 
-Add expenses with category, amount, and description
+- Add expenses with category, amount, and description
 
-Visual budget progress indicator on Dashboard
+- Visual budget progress indicator on Dashboard
 
-Complete expense history list
+- Complete expense history list
 
 🥗 Meal Suggestions & Favorites
 
-Scroll through eco-friendly meal ideas
+- Scroll through eco-friendly meal ideas
 
-Tap a suggestion to save it to your Favorites
+- Tap a suggestion to save it to your Favorites
 
-Favorites appear above the suggestions for fast access
+- Favorites appear above the suggestions for fast access
 
-Designed to promote sustainable and healthy eating
+- Designed to promote sustainable and healthy eating
 
 🌎 Eco & Health Insights (Future Feature)
 
-Carbon savings tracker
+- Carbon savings tracker
 
-Eco level progression
+- Eco level progression
 
-Health meal scoring
+- Health meal scoring
 
 🏆 Leaderboard (Future Feature)
 
-Compare eco scores with friends and other users
+- Compare eco scores with friends and other users
 
 🛠 Tech Stack
 
-Flutter (Dart)
+- Flutter (Dart)
 
-Provider for state management
+- Provider for state management
 
-Material 3 UI design
+- Material 3 UI design
 
-Cross-platform support: iOS, Android, Web, Desktop
+- Cross-platform support: iOS, Android, Web, Desktop
 
 📁 Project Structure
 
@@ -73,6 +73,7 @@ Install required packages:
 flutter pub get
 
 3️⃣ Run the App
+
 ▶️ Web
 flutter run -d chrome
 

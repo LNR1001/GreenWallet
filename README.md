@@ -75,12 +75,17 @@ flutter pub get
 3️⃣ Run the App
 
 ▶️ Web
+
 flutter run -d chrome
 
 ▶️ Android
+
 flutter emulators --launch <emulator_name>
+
 flutter run
 
 ▶️ iOS (Mac only)
+
 open -a Simulator
+
 flutter run

@@ -58,7 +58,9 @@ It encourages users to spend smarter while learning how lifestyle choices impact
 
 Getting Started
 1️⃣ Clone the Repository
+
 git clone https://github.com/LNR1001/GreenWallet.git
+
 cd GreenWallet
 
 2️⃣ Install Dependencies

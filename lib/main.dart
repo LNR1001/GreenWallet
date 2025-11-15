@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:green_wallet/app_state.dart';
-import 'package:green_wallet/screens/home_screen.dart';
 import 'screens/dashboard_screen.dart';
 import 'utils/theme.dart';
 

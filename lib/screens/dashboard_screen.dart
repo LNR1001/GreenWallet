@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:green_wallet/screens/profile_screen.dart';
+import 'package:green_wallet/screens/profile/profile_screen.dart';
 import 'package:provider/provider.dart';
 import '../app_state.dart';
 import 'budget/add_expense.dart';

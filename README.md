@@ -3,6 +3,9 @@
 A sustainable budgeting and eco-lifestyle companion app built with Flutter and Provider.
 GreenWallet helps users track their spending, set smart budgets, discover eco-friendly meal suggestions, and build healthier, greener habits.
 
+https://github.com/user-attachments/assets/7bdcc948-1f2d-4ef3-aba9-13bf421a56f2
+
+
 📌 Overview
 
 GreenWallet combines personal finance with sustainability awareness.

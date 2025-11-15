@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:green_wallet/screens/profile_screen.dart';
 import 'package:provider/provider.dart';
-import 'package:green_wallet/app_state.dart';
+import '../app_state.dart';
 import 'budget/add_expense.dart';
 import 'budget/expense_history.dart';
 import 'budget/budget_settings.dart';

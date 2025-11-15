@@ -1,16 +1,95 @@
-# green_wallet
+🌿 GreenWallet
 
-A new Flutter project.
+A sustainable budgeting and eco-lifestyle companion app built with Flutter and Provider.
+GreenWallet helps users track their spending, set smart budgets, discover eco-friendly meal suggestions, and build healthier, greener habits.
 
-## Getting Started
+📌 Overview
 
-This project is a starting point for a Flutter application.
+GreenWallet combines personal finance with sustainability awareness.
+It encourages users to spend smarter while learning how lifestyle choices impact health and the environment.
 
-A few resources to get you started if this is your first Flutter project:
+✨ Features
+💰 Smart Budget Tracking
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Set and update a monthly budget
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Add expenses with category, amount, and description
+
+Visual budget progress indicator on Dashboard
+
+Complete expense history list
+
+🥗 Meal Suggestions & Favorites
+
+Scroll through eco-friendly meal ideas
+
+Tap a suggestion to save it to your Favorites
+
+Favorites appear above the suggestions for fast access
+
+Designed to promote sustainable and healthy eating
+
+🌎 Eco & Health Insights (Future Feature)
+
+Carbon savings tracker
+
+Eco level progression
+
+Health meal scoring
+
+🏆 Leaderboard (Future Feature)
+
+Compare eco scores with friends and other users
+
+🛠 Tech Stack
+
+Flutter (Dart)
+
+Provider for state management
+
+Material 3 UI design
+
+Cross-platform support: iOS, Android, Web, Desktop
+
+📁 Project Structure
+lib/
+ ├── main.dart
+ ├── app_state.dart
+ ├── screens/
+ │     ├── dashboard_screen.dart
+ │     ├── profile/profile_screen.dart
+ │     ├── budget/
+ │     │     ├── add_expense.dart
+ │     │     ├── expenses_history.dart
+ │     │     └── budget_settings.dart
+ │     ├── meals/meal_details.dart
+ ├── widgets/
+ └── utils/
+
+Getting Started
+1️⃣ Clone the Repository
+git clone https://github.com/<your-username>/GreenWallet.git
+cd GreenWallet
+
+2️⃣ Install Dependencies
+
+Make sure Flutter is installed:
+
+flutter --version
+
+
+Install required packages:
+
+flutter pub get
+
+3️⃣ Run the App
+▶️ Web
+flutter run -d chrome
+
+▶️ Android
+flutter emulators --launch <emulator_name>
+flutter run
+
+▶️ iOS (Mac only)
+open -a Simulator
+flutter run

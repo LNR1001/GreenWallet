@@ -54,44 +54,84 @@ It encourages users to spend smarter while learning how lifestyle choices impact
 
 - Cross-platform support: iOS, Android, Web, Desktop
 
-📁 Project Structure
+## 📁 Project Structure
 
-![alt text](image.png)
-
+```
+GreenWallet/
+│
+├── lib/                   # Flutter app
+│   ├── main.dart
+│   ├── app_state.dart
+│   ├── config/
+│   ├── models/
+│   ├── services/
+│   ├── screens/
+│   ├── utils/
+│   └── data/
+│
+├── backend/               # Django backend
+│   ├── manage.py
+│   ├── requirements.txt
+│   │
+│   ├── greenwallet_backend/
+│   │   ├── settings.py
+│   │   ├── urls.py
+│   │   ├── asgi.py
+│   │   └── wsgi.py
+│   │
+│   └── api/
+│       ├── models.py
+│       ├── serializers.py
+│       ├── views.py
+│       ├── urls.py
+│       └── services/
+│           ├── carbon_service.py
+│           ├── meal_service.py
+│           └── utils.py
+│
+└── README.md
+```
 
 Getting Started
 
 1️⃣ Clone the Repository
-
+```
 git clone https://github.com/LNR1001/GreenWallet.git
-
+```
+```
 cd GreenWallet
-
+```
 2️⃣ Install Dependencies
 
 Make sure Flutter is installed:
-
+```
 flutter --version
-
+```
 
 Install required packages:
-
+```
 flutter pub get
-
+```
 3️⃣ Run the App
 
 ▶️ Web
-
+```
 flutter run -d chrome
-
+```
 ▶️ Android
-
+```
 flutter emulators --launch <emulator_name>
 
 flutter run
+```
 
 ▶️ iOS (Mac only)
-
+```
 open -a Simulator
 
 flutter run
+```
+
+
+
+

@@ -52,6 +52,7 @@ Material 3 UI design
 Cross-platform support: iOS, Android, Web, Desktop
 
 📁 Project Structure
+
 ![alt text](image.png)
 
 

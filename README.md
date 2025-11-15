@@ -52,23 +52,12 @@ Material 3 UI design
 Cross-platform support: iOS, Android, Web, Desktop
 
 📁 Project Structure
-lib/
- ├── main.dart
- ├── app_state.dart
- ├── screens/
- │     ├── dashboard_screen.dart
- │     ├── profile/profile_screen.dart
- │     ├── budget/
- │     │     ├── add_expense.dart
- │     │     ├── expenses_history.dart
- │     │     └── budget_settings.dart
- │     ├── meals/meal_details.dart
- ├── widgets/
- └── utils/
+![alt text](image.png)
+
 
 Getting Started
 1️⃣ Clone the Repository
-git clone https://github.com/<your-username>/GreenWallet.git
+git clone https://github.com/LNR1001/GreenWallet.git
 cd GreenWallet
 
 2️⃣ Install Dependencies
